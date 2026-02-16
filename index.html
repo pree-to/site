@@ -25,10 +25,11 @@
 
         <h2>sobre mim</h2>
         <img src="https://hermes.dio.me/articles/cover/7d407b40-57ea-433a-aa6f-4c64d13f6aec.jpg"
-            alt="imagem do peril da pagina"> <title>imagem d perfil</title>
-        
+            alt="imagem do peril da pagina">
+        <title>imagem d perfil</title>
+
         <article>
-            <p>Oi, me chamo venicio, sou desenvolvedor web.  (junior)</p>
+            <p>Oi, me chamo venicio, sou desenvolvedor web. (junior)</p>
         </article>
     </section>
     <aside>
@@ -47,6 +48,42 @@
 
         </ARTicle>
     </section>
+    <section id="habilidades">
+        <h2>habilidades e tecnologias</h2>
+
+        <table>
+<thead>
+    <tr>
+<th>tecnologias</th>
+<th>nivel</th>
+<th>descricao</th>
+
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>HTML</td>
+        <TD>iniciante</TD>
+        <td>capaz de construir paginas web semanticas e responsivas</td>
+
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>intermediario</td>
+        <td>experiencia com flexbox,grid e animaçoes CSS</td>
+    </tr>
+    <TR>
+        <TD>JavaScript</TD>
+        <td>basico</td>
+        <td>desenvolvimento de script do lado do cliente para interaçoes.</td>
+    </TR>
+</tbody>
+
+        </table>
+
+
+    </section>
     <footer>
         <p>direitos reservados a venicio.</p>
         <section id="contatos">
@@ -56,6 +93,30 @@
                 email: <a href="mailto:pr3to_@live.com">pr3to_@live.com</a> <br>
                 tel: <a href="tel:+5547996602264">47996602264</a>
             </address>
+            <form action="">
+                <label for="nome">nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">e-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="telefone">telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orçamento">orçamento</option>
+                    <option value="duvida">duvida</option>
+                    <option value="outros">outros</option>
+                </select> <br>
+                <label for="mensagem">mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="8" required></textarea> <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">deseja receber minha newsletter? fique por dentro.</label> <br>
+<input type="submit" value="enviar mensagem"> 
+<input type="date">
+
+            </form>
         </section>
     </footer>
 </body>
